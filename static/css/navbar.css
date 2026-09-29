@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #131922;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo{
+    background-image: url("../images/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 120px;
+}
+
+.icon_address{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.fa-solid fa-location-dot{
+    color: rgb(189, 60, 60);
+}
+.first{
+    font-size: 0.8rem;
+}
+
+.add_second{
+    font-weight: f;
+}
+
+.nav-search{
+    height: 40px;
+    width: 620px;
+    display: flex;
+    align-items: center;
+    background-color: #febd68;
+    border: 2px solid transparent;
+    border-radius: 4px;
+}
+
+.nav-search:hover{
+    border: 2px solid #febd68;
+}
+
+.select_all{
+    height: 100%;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f3f3f3;
+    text-align: center;
+    border: none;
+}
+
+.search_input{
+    flex: 1;
+    height: 100%;
+    padding: 0 8px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+
+.search_icon{
+    height: 100%;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #febd68;
+    font-size: 1.1rem;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+}
+
+.border{
+    padding: 4px;
+    border: 2px solid transparent;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+.flag{
+    font-size: 22px;
+}
+
+.cart-nav{
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+}
+
+.cart-nav i{
+    font-size: 30px;
+}
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 0.9rem;
+}
+
+.panel-all{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: bold;
+}
+
+.panel-all i{
+    font-size: 1.2rem;
+}
+
+.panel-ops{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.panel-ops p{
+    margin-left: 6px;
+}
+
+.panel-ops i{
+    font-size: 0.7rem;
+    color: #ccc;
+}
+
