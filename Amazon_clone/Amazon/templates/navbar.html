@@ -3,12 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <title>amazon_copy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="static/css/navbar.css">
+    
+    <header>
+    <div class="navbar">
+        <div class="nav-logo border">
+            <div class="logo"></div>
+        </div>
 
-</head>
-<body>
-    <h1>Hello I am navbar</h1>
-    <i class="fa-solid fa-magnifying-glass"></i>
-</body>
-</html>
+
+        <div class="nav-address border">
+            <p class="first">Deliver to</p>
+            <div class="icon_address">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="add_second">India</p>
+            </div>
+        </div>
+
+        <form class="nav-search" action="https://www.amazon.in/s" method="get">
+            <select class="select_all">
+                <option>All</option>
+            </select>
+            <input class="search_input" type="text" placeholder="Search Amazon" name="k">
+            <button class="search_icon" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+
+        <div class="flag border">🇮🇳 India</div>
+
+        <div class="sign-in border">
+            <p class="first">Hello, sign in</p>
+            <p class="add_second">Account & Lists</p>
+        </div>
+
+        <div class="return border">
+            <p class="first">Returns</p>
+            <p class="add_second">&amp; Orders</p>
+        </div>
+
+        <div class="cart-nav border">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p class="add_second">Cart</p>
+        </div>
+    </div>
+</header>
