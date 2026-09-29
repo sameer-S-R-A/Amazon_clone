@@ -108,3 +108,41 @@
 .cart-nav i{
     font-size: 30px;
 }
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 0.9rem;
+}
+
+.panel-all{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: bold;
+}
+
+.panel-all i{
+    font-size: 1.2rem;
+}
+
+.panel-ops{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.panel-ops p{
+    margin-left: 6px;
+}
+
+.panel-ops i{
+    font-size: 0.7rem;
+    color: #ccc;
+}
+
