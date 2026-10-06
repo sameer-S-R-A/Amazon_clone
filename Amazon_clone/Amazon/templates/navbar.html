@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>amazon_copy</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link rel="stylesheet" href="static/css/navbar.css">
-    
-    <header>
+</head>
+<header>
+ <body>
     <div class="navbar">
         <div class="nav-logo border">
             <div class="logo"></div>
         </div>
-
 
         <div class="nav-address border">
             <p class="first">Deliver to</p>
@@ -49,7 +49,7 @@
     </div>
 
     <div class="panel">
-        <div class="panel-all border">
+        <div class="panel-all border" id="open-sidebar">
             <i class="fa-solid fa-bars"></i>
             <p>All</p>
         </div>
@@ -72,3 +72,107 @@
         </div>
     </div>
 </header>
+
+<!-- Sidebar Overlay -->
+<div id="sidebar-overlay" class="sidebar-overlay"></div>
+
+<!-- Sidebar Menu Container -->
+<div id="sidebar" class="sidebar">
+    <div class="sidebar-header">
+        <div class="sidebar-user">
+            <i class="fa-solid fa-circle-user"></i>
+            <span>Hello, sign in</span>
+        </div>
+        <button id="sidebar-close" class="sidebar-close" aria-label="Close sidebar">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+
+    <div class="sidebar-content">
+        <div class="sidebar-section">
+            <h3>Trending</h3>
+            <a href="#" class="sidebar-item">Bestsellers</a>
+            <a href="#" class="sidebar-item">New Releases</a>
+            <a href="#" class="sidebar-item">Movers and Shakers</a>
+        </div>
+
+        <div class="sidebar-section">
+            <h3>Digital Content and Devices</h3>
+            <a href="#" class="sidebar-item">
+                <span>Echo &amp; Alexa</span>
+                <i class="fa-solid fa-chevron-right"></i>
+            </a>
+            <a href="#" class="sidebar-item">
+                <span>Fire TV</span>
+                <i class="fa-solid fa-chevron-right"></i>
+            </a>
+            <a href="#" class="sidebar-item">
+                <span>Kindle E-Readers &amp; eBooks</span>
+                <i class="fa-solid fa-chevron-right"></i>
+            </a>
+            <a href="#" class="sidebar-item">
+                <span>Audible Audiobooks</span>
+                <i class="fa-solid fa-chevron-right"></i>
+            </a>
+            <a href="#" class="sidebar-item">
+                <span>Amazon Prime Video</span>
+                <i class="fa-solid fa-chevron-right"></i>
+            </a>
+            <a href="#" class="sidebar-item">
+                <span>Amazon Music</span>
+                <i class="fa-solid fa-chevron-right"></i>
+            </a>
+        </div>
+
+        <div class="sidebar-section">
+            <h3>Shop by Category</h3>
+            <a href="#" class="sidebar-item">
+                <span>Mobiles, Computers</span>
+                <i class="fa-solid fa-chevron-right"></i>
+            </a>
+            <a href="#" class="sidebar-item">
+                <span>TV, Appliances, Electronics</span>
+                <i class="fa-solid fa-chevron-right"></i>
+            </a>
+            <a href="#" class="sidebar-item">
+                <span>Men's Fashion</span>
+                <i class="fa-solid fa-chevron-right"></i>
+            </a>
+            <a href="#" class="sidebar-item">
+                <span>Women's Fashion</span>
+                <i class="fa-solid fa-chevron-right"></i>
+            </a>
+            <a href="#" class="sidebar-item sidebar-see-all">
+                <span>See all</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </a>
+        </div>
+
+        <div class="sidebar-section">
+            <h3>Programs &amp; Features</h3>
+            <a href="#" class="sidebar-item">
+                <span>Gift Cards &amp; Mobile Recharges</span>
+                <i class="fa-solid fa-chevron-right"></i>
+            </a>
+            <a href="#" class="sidebar-item">Amazon Launchpad</a>
+            <a href="#" class="sidebar-item">Flight Tickets</a>
+            <a href="#" class="sidebar-item sidebar-see-all">
+                <span>See all</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </a>
+        </div>
+
+        <div class="sidebar-section">
+            <h3>Help &amp; Settings</h3>
+            <a href="#" class="sidebar-item">Your Account</a>
+            <a href="#" class="sidebar-item">Customer Service</a>
+            <a href="#" class="sidebar-item">Sign In</a>
+        </div>
+    </div>
+</div>
+
+<script src="static/js/navbar.js"></script>
+</body>
+</html>
+
+

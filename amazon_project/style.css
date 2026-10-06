@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#container{
+    display: flex;
+    /* background-color: #000; */
+    height: 100px;
+    width: 100%;
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+
+
+#squre, #circle{
+    height: 40px;
+    width: 40px;
+    border:2px solid rgb(39, 76, 187);
+    background-color: bisque;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+
+    
+
+}
+
+#circle{
+    border-radius: 50%;
+    border-color: #000;
+    
+}
+
+#triangle{
+    height: 0;
+    width: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 80px solid rgb(187, 39, 143);
+    margin: 10px;
+    /* background-color: aqua; */
+
+}
+    
